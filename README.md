@@ -1,16 +1,109 @@
-# React + Vite
+# 🚀 Meu Portfólio Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é meu **portfólio pessoal desenvolvido com React**, onde apresento minhas habilidades como desenvolvedor e alguns projetos que desenvolvi durante meus estudos e prática em programação.
 
-Currently, two official plugins are available:
+O objetivo deste projeto é mostrar minhas competências em **desenvolvimento web moderno**, criação de interfaces responsivas e uso de tecnologias atuais do ecossistema JavaScript.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🌐 Demo do Projeto
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Você pode acessar o site online aqui:
 
-## Expanding the ESLint configuration
+👉 https://seu-portfolio.vercel.app
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+Este projeto foi desenvolvido utilizando:
+
+* **React.js**
+* **JavaScript (ES6+)**
+* **CSS3**
+* **HTML5**
+* **Context API**
+* **EmailJS**
+* **Responsive Design**
+
+---
+
+## ✨ Funcionalidades
+
+O portfólio possui as seguintes funcionalidades:
+
+* 🌙 **Modo claro / escuro**
+* 📱 **Design responsivo para mobile**
+* 🍔 **Menu hamburguer para dispositivos móveis**
+* 📋 **Botão para copiar email**
+* 📂 **Seção de projetos**
+* 📊 **Seção de habilidades**
+* 📞 **Seção de contato**
+* 🎨 **Animações e efeitos de hover**
+
+---
+
+## 📂 Estrutura do Projeto
+
+src/
+components/
+context/
+styles/
+assets/
+
+App.jsx
+main.jsx
+
+---
+
+## 🚀 Como rodar o projeto
+
+1️⃣ Clone o repositório
+
+```bash
+git clone https://github.com/seuusuario/seu-repositorio.git
+```
+
+2️⃣ Entre na pasta do projeto
+
+```bash
+cd seu-repositorio
+```
+
+3️⃣ Instale as dependências
+
+```bash
+npm install
+```
+
+4️⃣ Inicie o servidor de desenvolvimento
+
+```bash
+npm run dev
+```
+
+---
+
+## 📚 O que aprendi com este projeto
+
+Durante o desenvolvimento deste portfólio eu pratiquei:
+
+* Organização de projetos em **React**
+* Uso de **componentes reutilizáveis**
+* Implementação de **modo claro e escuro**
+* Criação de **interfaces responsivas**
+* Estruturação de um **projeto real de front-end**
+
+---
+
+## 📬 Contato
+
+Se você quiser entrar em contato comigo:
+
+📧 Email: [seuemail@email.com](mailto:seuemail@email.com)
+💼 LinkedIn: https://linkedin.com/in/seuusuario
+🐙 GitHub: https://github.com/seuusuario
+
+---
+
+⭐ Obrigado por visitar meu projeto!
