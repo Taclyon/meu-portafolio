@@ -3,7 +3,7 @@ import useTypewriter from "../hooks/useTypewriter";
 import profileImg from '/assets/profile.png'
 
 const Hero = () => {
-  const text = "Hola, soy Tomas, desarrollador Frontend.";
+  const text = "Olá! Sou Tomas, Desenvolvedor Front-End.";
   const typedText = useTypewriter(text, 100); // velocidad de escritura
 
   return (

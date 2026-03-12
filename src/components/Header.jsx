@@ -20,7 +20,7 @@ const Header = () => {
 
       <div className="header-container">
 
-        <div className="logo">MeuPortfólio</div>
+        <div className="logo">Meu Portfólio</div>
 
         <nav className={`nav-menu ${menuOpen ? "open" : ""}`}>
           <ul>
@@ -39,7 +39,7 @@ const Header = () => {
 
             <li>
               <a href="#skills" className="nav-link" onClick={closeMenu}>
-                Skills
+                Habilidades
               </a>
             </li>
 
