@@ -1,0 +1,135 @@
+
+@import './variables.css';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background 0.5s ease, color 0.5s ease;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+
+/* ==========================
+   Botões
+========================== */
+button {
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: var(--text-color);
+  padding: 0.7rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  background-color: #4338ca;
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+}
+
+.btn-secondary:hover {
+  background-color: #c7d2fe;
+  transform: translateY(-2px);
+}
+
+/* ==========================
+   Header
+========================== */
+.header {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  box-shadow: 0 2px 6px var(--shadow-color);
+  transition: background 0.5s ease, color 0.5s ease, box-shadow 0.5s ease;
+}
+
+/* ==========================
+   Seções
+========================== */
+section {
+  padding: 6rem 2rem;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background 0.5s ease, color 0.5s ease;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  text-align: center;
+  color: var(--text-color);
+}
+
+/* ==========================
+   Contêiner
+========================== */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ==========================
+   Cards (Portfolio, Services)
+========================== */
+.portfolio-card,
+.service-card {
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  box-shadow: 0 10px 30px var(--shadow-color);
+  border-radius: 1rem;
+  transition: background 0.5s ease, color 0.5s ease, box-shadow 0.5s ease, transform 0.3s ease;
+}
+
+.portfolio-card:hover,
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 40px var(--shadow-color);
+}
+
+/* ==========================
+   Subtítulos / descrições
+========================== */
+.hero-subtitle,
+.about-description,
+.portfolio-categoria {
+  color: var(--subtitle-color);
+  transition: color 0.5s ease;
+}

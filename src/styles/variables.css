@@ -1,0 +1,27 @@
+:root {
+  /* Cores e fundos */
+  --bg-color: #f9fafb;
+  --text-color: #1f2937;
+  --primary-color: #4f46e5;
+  --secondary-color: #e0e7ff;
+  --shadow-color: rgba(0,0,0,0.05);
+  --card-bg: #ffffff;
+  --subtitle-color: #6b7280;
+
+  /* Tipografia */
+  --font-family: 'Poppins', sans-serif;
+  --font-size-base: 16px;
+
+  /* Tamanhos e bordas */
+  --border-radius: 0.5rem;
+}
+
+[data-theme="escuro"] {
+  --bg-color: #111827;
+  --text-color: #f9fafb;
+  --primary-color: #6366f1;
+  --secondary-color: #1f2937;
+  --shadow-color: rgba(0,0,0,0.3);
+  --card-bg: #1f2937;
+  --subtitle-color: #d1d5db;
+}
