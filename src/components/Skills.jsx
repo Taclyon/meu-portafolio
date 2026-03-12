@@ -1,16 +1,10 @@
 import React, { useState, useEffect, useRef } from "react";
-
+import { skills } from "../data/skills";
 const Skills = () => {
-  const skills = [
-    { name: "React", level: 90 },
-    { name: "JavaScript", level: 95 },
-    { name: "CSS", level: 85 },
-    { name: "UI/UX Design", level: 80 },
-  ];
 
   const [animate, setAnimate] = useState(false);
   const skillsRef = useRef(null);
-
+  
   useEffect(() => {
     const observer = new IntersectionObserver(
       ([entry]) => {

@@ -9,7 +9,7 @@ const useTypewriter = (text, speed = 100) => {
       setDisplayedText((prev) => prev + text[index]);
       index++;
       if (index === text.length) clearInterval(interval);
-    }, speed);
+    }, (speed));
 
     return () => clearInterval(interval);
   }, [text, speed]);

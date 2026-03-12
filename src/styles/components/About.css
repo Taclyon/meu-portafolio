@@ -19,3 +19,165 @@
   color: #4b5563;
   line-height: 1.8;
 }
+
+
+/* texto  */
+
+.about-section {
+  padding: 5rem 1.5rem;
+  background: var(--bg-color);
+}
+
+.about-container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* título */
+
+.about-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/* conteúdo principal */
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* texto */
+
+.about-text p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* lista lateral */
+
+.about-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.about-list li {
+  background: var(--secondary-color);
+  padding: 0.9rem;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+
+/* tecnologias */
+
+.tech-section {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.tech-title {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.tech-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.tech-icons img {
+  width: 45px;
+  transition: transform 0.3s ease;
+}
+
+.tech-icons img:hover {
+  transform: scale(1.15);
+}
+
+/* aprendendo */
+
+.learning-section {
+  margin-top: 3rem;
+}
+
+.learning-section ul {
+  margin-top: 1rem;
+  padding-left: 1rem;
+}
+
+.learning-section li {
+  margin-bottom: 0.6rem;
+}
+
+/* objetivo */
+
+.goal-section {
+  margin-top: 2rem;
+  background: var(--secondary-color);
+  padding: 1.5rem;
+  border-radius: 10px;
+}
+
+.goal-section p {
+  margin-top: 1rem;
+}
+
+.quote {
+  margin-top: 1rem;
+  font-style: italic;
+  color: var(--primary-color);
+}
+
+/* ======================
+TABLET
+====================== */
+
+@media (min-width: 768px) {
+
+  .about-text p {
+    font-size: 1.05rem;
+  }
+
+  .tech-icons img {
+    width: 50px;
+  }
+
+}
+
+/* ======================
+DESKTOP
+====================== */
+
+@media (min-width: 1024px) {
+
+  .about-content {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 3rem;
+    align-items: start;
+  }
+
+  .section-title {
+    font-size: 2.4rem;
+  }
+
+  .about-text p {
+    font-size: 1.1rem;
+  }
+
+  .tech-icons img {
+    width: 55px;
+  }
+
+}
