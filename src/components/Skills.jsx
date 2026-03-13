@@ -3,6 +3,7 @@ import { skills } from "../data/skills";
 const Skills = () => {
 
   const [animate, setAnimate] = useState(false);
+  
   const skillsRef = useRef(null);
   
   useEffect(() => {

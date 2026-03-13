@@ -1,35 +1,210 @@
-.portfolio-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
+/* =========================
+PORTFOLIO SECTION
+========================= */
+
+.portfolio-section {
+  padding: 6rem 2rem;
+  text-align: center;
 }
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+/* =========================
+FILTROS
+========================= */
+
+.portfolio-filters {
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  gap: 1rem;
+
+  margin-bottom: 3rem;
+}
+
+.filter-btn {
+
+  padding: 0.5rem 1.2rem;
+
+  border-radius: 20px;
+
+  border: 1px solid var(--primary-color);
+
+  background: transparent;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+
+}
+
+.filter-btn:hover {
+
+  background: var(--primary-color);
+  color: white;
+
+}
+
+
+/* =========================
+GRID PROJETOS
+========================= */
+
+.portfolio-container {
+
+  max-width: 1200px;
+
+  margin: auto;
+
+  display: grid;
+
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+
+  gap: 2rem;
+
+}
+
+
+/* =========================
+CARD
+========================= */
 
 .portfolio-card {
-  background-color: var(--card-bg);
-  color: var(--text-color);
-  border-radius: 1rem;
-  box-shadow: 0 10px 30px var(--shadow-color);
+
+  background: var(--secondary-color);
+
+  border-radius: 12px;
+
   overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.5s ease, background 0.5s ease, color 0.5s ease;
+
+  transition: transform 0.3s ease,
+  box-shadow 0.3s ease;
+
+  display: flex;
+
+  flex-direction: column;
+
 }
 
-.portfolio-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 40px var(--shadow-color);
+
+/* imagem */
+
+.portfolio-img {
+
+  width: 100%;
+
+  height: 180px;
+
+  object-fit: cover;
+
 }
+
+
+/* conteúdo */
+
+.portfolio-info {
+
+  padding: 1.2rem;
+
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 0.6rem;
+
+  flex-grow: 1;
+
+}
+
+
+/* título */
 
 .portfolio-title {
+
+  font-size: 1.1rem;
+
   font-weight: 600;
-  color: var(--text-color);
+
 }
+
+
+/* categoria */
 
 .portfolio-categoria {
-  color: var(--subtitle-color);
+
+  font-size: 0.85rem;
+
+  color: var(--primary-color);
+
 }
 
-@media (max-width: 500px) {
-  .portfolio-container {
-    grid-template-columns: 1fr; /* 1 card por linha */
-    gap: 1rem;
+
+/* botão */
+
+.btn-secondary {
+
+  margin-top: auto;
+
+  padding: 0.5rem;
+
+  border-radius: 6px;
+
+  text-decoration: none;
+
+  border: 1px solid var(--primary-color);
+
+  transition: all 0.3s ease;
+
+}
+
+.btn-secondary:hover {
+
+  background: var(--primary-color);
+
+  color: white;
+
+}
+
+
+/* =========================
+HOVER CARD
+========================= */
+
+.portfolio-card:hover {
+
+  transform: translateY(-8px);
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+
+}
+
+
+/* =========================
+RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+  .portfolio-section {
+
+    padding: 4rem 1.5rem;
+
   }
+
+}
+
+@media (max-width: 480px) {
+
+  .portfolio-container {
+
+    grid-template-columns: 1fr;
+
+  }
+
 }

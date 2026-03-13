@@ -3,24 +3,24 @@
 const projectsData = [
   {
     id: 1,
-    titulo: "Portfólio Pessoal",
+    titulo: "Loja de Produtos",
     categoria: "React",
-    imagem: "/assets/project1.png",
-    link: "https://github.com/seuusuario/portfolio"
+    imagem: "/assets/images-reactStore/1.png",
+    link: "https://github.com/Taclyon/react-shop-card.git"
   },
   {
     id: 2,
-    titulo: "Landing Page UI/UX",
-    categoria: "UI/UX",
-    imagem: "/assets/project2.png",
-    link: "https://www.behance.net/seuprojeto"
+    titulo: "App Reloj",
+    categoria: "React",
+    imagem: "/assets/reloj-images/1.png",
+    link: "https://github.com/Taclyon/Reloj-React.git"
   },
   {
     id: 3,
-    titulo: "Dashboard React",
+    titulo: "App de Tarefas",
     categoria: "React",
-    imagem: "/assets/project3.png",
-    link: "https://github.com/seuusuario/dashboard"
+    imagem: "/assets/images-app-tarefas/1.png",
+    link: "https://github.com/Taclyon/aplicacao-de-tarefas.git"
   }
 ];
 
