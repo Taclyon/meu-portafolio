@@ -55,76 +55,76 @@ const certificatesData = [
     imagem: "/assets/images-certificado/8.png",
     link: "#"
   },
-  {
-    id: 9,
-    titulo: "Front End Developer",
-    plataforma: "PLATZI",
-    imagem: "/assets/images-certificado/9.png",
-    link: "#"
-  },
-  {
-    id: 10,
-    titulo: "Curso Practico Front End Developer",
-    plataforma: "PLATZI",
-    imagem: "/assets/images-certificado/10.png",
-    link: "#"
-  },
-  {
-    id: 11,
-    titulo: "Introdução à web: História e funcionamento da internet",
-    plataforma: "PLATZI",
-    imagem: "/assets/images-certificado/11.png",
-    link: "#"
-  },
-  {
-    id: 12,
-    titulo: "Clousures e Scope em Javascript",
-    plataforma: "PLATZI",
-    imagem: "/assets/images-certificado/12.png",
-    link: "#"
-  },
-  {
-    id: 13,
-    titulo: "Programaçãon Orientada a Objetos Javascript",
-    plataforma: "PLATZI",
-    imagem: "/assets/images-certificado/13.png",
-    link: "#"
-  },
-  {
-    id: 14,
-    titulo: "Curso Practico de Javascript",
-    plataforma: "PLATZI",
-    imagem: "/assets/images-certificado/14.png",
-    link: "#"
-  },
-  {
-    id: 15,
-    titulo: "Curso Practico de Javascript",
-    plataforma: "PLATZI",
-    imagem: "/assets/images-certificado/15.png",
-    link: "#"
-  },
-  {
-    id: 17,
-    titulo: "Curso de Programaçao Orientada a Objetos",
-    plataforma: "PLATZI",
-    imagem: "/assets/images-certificado/17.png",
-    link: "#"
-  },
-   {
-    id: 18,
-    titulo: "Curso basico de Algoritmos e Pensamentos Logicos",
-    plataforma: "PLATZI",
-    imagem: "/assets/images-certificado/18.png",
-    link: "#"
-  },
-   {
-    id: 19,
-    titulo: "Algoritmos e fluxogramas",
-    plataforma: "PLATZI",
-    imagem: "/assets/images-certificado/19.png",
-    link: "#"
-  },
+  // {
+  //   id: 9,
+  //   titulo: "Front End Developer",
+  //   plataforma: "PLATZI",
+  //   imagem: "/assets/images-certificado/9.png",
+  //   link: "#"
+  // },
+  // {
+  //   id: 10,
+  //   titulo: "Curso Practico Front End Developer",
+  //   plataforma: "PLATZI",
+  //   imagem: "/assets/images-certificado/10.png",
+  //   link: "#"
+  // },
+  // {
+  //   id: 11,
+  //   titulo: "Introdução à web: História e funcionamento da internet",
+  //   plataforma: "PLATZI",
+  //   imagem: "/assets/images-certificado/11.png",
+  //   link: "#"
+  // },
+  // {
+  //   id: 12,
+  //   titulo: "Clousures e Scope em Javascript",
+  //   plataforma: "PLATZI",
+  //   imagem: "/assets/images-certificado/12.png",
+  //   link: "#"
+  // },
+  // {
+  //   id: 13,
+  //   titulo: "Programaçãon Orientada a Objetos Javascript",
+  //   plataforma: "PLATZI",
+  //   imagem: "/assets/images-certificado/13.png",
+  //   link: "#"
+  // },
+  // {
+  //   id: 14,
+  //   titulo: "Curso Practico de Javascript",
+  //   plataforma: "PLATZI",
+  //   imagem: "/assets/images-certificado/14.png",
+  //   link: "#"
+  // },
+  // {
+  //   id: 15,
+  //   titulo: "Curso Practico de Javascript",
+  //   plataforma: "PLATZI",
+  //   imagem: "/assets/images-certificado/15.png",
+  //   link: "#"
+  // },
+  // {
+  //   id: 17,
+  //   titulo: "Curso de Programaçao Orientada a Objetos",
+  //   plataforma: "PLATZI",
+  //   imagem: "/assets/images-certificado/17.png",
+  //   link: "#"
+  // },
+  //  {
+  //   id: 18,
+  //   titulo: "Curso basico de Algoritmos e Pensamentos Logicos",
+  //   plataforma: "PLATZI",
+  //   imagem: "/assets/images-certificado/18.png",
+  //   link: "#"
+  // },
+  //  {
+  //   id: 19,
+  //   titulo: "Algoritmos e fluxogramas",
+  //   plataforma: "PLATZI",
+  //   imagem: "/assets/images-certificado/19.png",
+  //   link: "#"
+  // },
   
   
   

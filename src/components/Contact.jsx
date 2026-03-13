@@ -4,7 +4,7 @@ import "../styles/components/Contact.css"
 
 const Contact = () => {
 
-  const email = "seuemail@email.com";
+  const email = "lyonT0m2s@gmail.com";
   const [copiado, setCopiado] = useState(false);
 
   const copiarEmail = () => {
@@ -30,7 +30,7 @@ const Contact = () => {
 
           <h3>Email</h3>
 
-          <p>{email}</p>
+          <p>@Email</p>
 
           <button
             className="copy-btn"
@@ -43,7 +43,7 @@ const Contact = () => {
 
         {/* LINKEDIN */}
         <a
-          href="https://linkedin.com/in/seuusuario"
+          href="https://www.linkedin.com/in/tomas-cartaya-88a025308/"
           target="_blank"
           rel="noopener noreferrer"
           className="contact-card"
@@ -59,7 +59,7 @@ const Contact = () => {
 
         {/* GITHUB */}
         <a
-          href="https://github.com/seuusuario"
+          href="https://github.com/Taclyon?tab=repositories"
           target="_blank"
           rel="noopener noreferrer"
           className="contact-card"
@@ -75,7 +75,7 @@ const Contact = () => {
 
         {/* WHATSAPP */}
         <a
-          href="https://wa.me/5599999999999"
+          href="https://wa.me/5595991524395"
           target="_blank"
           rel="noopener noreferrer"
           className="contact-card"

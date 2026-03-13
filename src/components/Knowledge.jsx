@@ -62,16 +62,17 @@ const Knowledge = () => {
 
       <div className="certificates-container">
 
-        {certificatesData.map((cert) => (
+        {certificatesData && certificatesData.map((cert) => (
 
           <div key={cert.id} className="certificate-card">
-
-            <img
+            {!cert.imagem ? <h1>Carregando</h1> 
+            : <img
               src={cert.imagem}
               alt={cert.titulo}
               className="certificate-img"
               onClick={() => setCertificadoSelecionado(cert.imagem)}
             />
+            }
 
             <div className="certificate-info">
 
