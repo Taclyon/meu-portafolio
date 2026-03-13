@@ -5,7 +5,7 @@ import profileImg from '/assets/profile.png'
 const Hero = () => {
   const text = "Olá! Sou Tomas, Desenvolvedor Front-End.";
   //const typedText = useTypewriter(text, 100); // velocidad de escritura
-
+  
   return (
     <section id="hero" className="hero-section">
       <div className="hero-content">
