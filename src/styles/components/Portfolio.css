@@ -37,7 +37,7 @@ FILTROS
   border: 1px solid var(--primary-color);
 
   background: transparent;
-
+  color: var(--primary-color);
   cursor: pointer;
 
   transition: all 0.3s ease;

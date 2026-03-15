@@ -7,6 +7,7 @@ import Portafolio from "./components/Portfolio";
 import Knowledge from "./components/Knowledge";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import { BrowserRouter } from "react-router-dom";
 
 /* Importar estilos globales */
 import "./styles/globals.css";

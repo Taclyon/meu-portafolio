@@ -3,7 +3,6 @@ import { ThemeContext } from "../context/ThemeContext";
 import { useState } from "react";
 
 const Header = () => {
-
   const { theme, toggleTheme } = useContext(ThemeContext);
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -17,14 +16,13 @@ const Header = () => {
 
   return (
     <header className="header">
-
       <div className="header-container">
-
-        <div className="logo">Meu Portfólio</div>
+        <div className="logo">
+          <a href="#hero">Meu Portfólio</a>
+        </div>
 
         <nav className={`nav-menu ${menuOpen ? "open" : ""}`}>
           <ul>
-
             <li>
               <a href="#hero" className="nav-link" onClick={closeMenu}>
                 Início
@@ -54,12 +52,10 @@ const Header = () => {
                 Contato
               </a>
             </li>
-
           </ul>
         </nav>
 
         <div className="header-buttons">
-
           <button className="btn-toggle" onClick={toggleTheme}>
             {theme === "claro" ? "🌙" : "☀️"}
           </button>
@@ -67,11 +63,8 @@ const Header = () => {
           <button className="hamburguer" onClick={toggleMenu}>
             {menuOpen ? "✕" : "☰"}
           </button>
-
         </div>
-
       </div>
-
     </header>
   );
 };
