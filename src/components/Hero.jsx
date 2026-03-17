@@ -27,7 +27,7 @@ const Hero = () => {
             Ver mis proyectos GitHub
           </button>
           <DownlodPDF
-            file="/public/tomaslyon.pdf"
+            file="/tomaslyon.pdf"
             filename="Tomas_Cartaya_CV.pdf"
           >
             📄 Descargar CV
