@@ -12,7 +12,7 @@ const Hero = () => {
           <span className="cursor"></span>
         </h1>
         <p className="hero-subtitle">
-          Creo experiencias digitales elegantes con React y UI/UX.
+Crio experiências digitais elegantes com React e UI/UX.
         </p>
         <div className="hero-buttons">
           <button
@@ -24,13 +24,13 @@ const Hero = () => {
             }
             className="btn-primary"
           >
-            Ver mis proyectos GitHub
+            Veja mais certificados no LinkedIn
           </button>
           <DownlodPDF
             file="/tomaslyon.pdf"
             filename="Tomas_Cartaya_CV.pdf"
           >
-            📄 Descargar CV
+            📄 Baixar currículo
           </DownlodPDF>
           {/* <button className="btn-secondary"> CV</button> */}
         </div>
