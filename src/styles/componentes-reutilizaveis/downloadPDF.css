@@ -1,0 +1,16 @@
+.btn-cv {
+  display: inline-block;
+  padding: 12px 20px;
+  background: var(--primary-color);
+  color: var(--text-color);
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  font-size: 14px;
+}
+
+.btn-cv:hover {
+  background: #4338ca;
+  transform: translateY(-2px);
+}

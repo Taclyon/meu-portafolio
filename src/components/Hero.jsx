@@ -1,17 +1,38 @@
-
+import DownlodPDF from "./componentes-reutilizaveis/DownloadPDF";
 import useTypewriter from "../hooks/useTypewriter";
-import profileImg from '/assets/profile.png'
+import profileImg from "/assets/profile.png";
 const Hero = () => {
   const text = "Olá! Sou Tomas, Desenvolvedor Front-End.";
   //const typedText = useTypewriter(text, 100); // velocidad de escritura
   return (
     <section id="hero" className="hero-section">
       <div className="hero-content">
-        <h1 className="hero-title">{text}<span className="cursor"></span></h1>
-        <p className="hero-subtitle">Creo experiencias digitales elegantes con React y UI/UX.</p>
+        <h1 className="hero-title">
+          {text}
+          <span className="cursor"></span>
+        </h1>
+        <p className="hero-subtitle">
+          Creo experiencias digitales elegantes con React y UI/UX.
+        </p>
         <div className="hero-buttons">
-          <button onClick={()=> window.open('https://github.com/Taclyon?tab=repositories', '_blank')} className="btn-primary" >Ver mis proyectos GitHub</button>
-          <button className="btn-secondary">Descargar CV</button>
+          <button
+            onClick={() =>
+              window.open(
+                "https://github.com/Taclyon?tab=repositories",
+                "_blank",
+              )
+            }
+            className="btn-primary"
+          >
+            Ver mis proyectos GitHub
+          </button>
+          <DownlodPDF
+            file="/cv_tomas_cartaya.pdf"
+            filename="Tomas_Cartaya_CV.pdf"
+          >
+            📄 Descargar CV
+          </DownlodPDF>
+          {/* <button className="btn-secondary"> CV</button> */}
         </div>
       </div>
       <div className="hero-image">
